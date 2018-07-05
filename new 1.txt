@@ -1,0 +1,10 @@
+comment:
+  enable: false
+  disqus_shortname:52it
+  commentjs:
+    enable: false
+    type: github
+    user: wypeng2012
+    repo: wypeng2012.github.io
+    client_id: 9a6253766978ee8c0432
+    client_secret: 395bec1fc13c08e4d240a58371b5a32e234ba7c9

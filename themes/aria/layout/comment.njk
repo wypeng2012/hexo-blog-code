@@ -1,10 +1,30 @@
 {% block comment %}
 {% if page.comment !== false %}
 <div class="comments" id="comments">
-  {% if theme.comment.disqus_shortname %}
-  <script defer id="dsq-count-scr" src="//{{ theme.comment.disqus_shortname }}.disqus.com/count.js"></script>
+ {% if theme.comment.disqus_shortname %}
+  <script defer id="dsq-count-scr" src="//{{ theme.comment.disqus_shortname }}.disqus.com/count.js"></script> 
   {% if not is_home() %}
-  <div id="disqus_thread" class="disqus_thread"></div>
+  
+  <!-- 来必力City版安装代码 -->
+<!-- <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzg0Ny8xNDM3Nw==">
+<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+</script>
+<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+</div> -->
+<!-- City版安装代码已完成 -->
+
+<div id="disqus_thread" class="disqus_thread"></div>
   <script type="text/javascript">
   var disqus_config = function () {
     this.page.url = "{{ page.permalink }}";
