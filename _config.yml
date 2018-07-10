@@ -4,16 +4,17 @@
 
 # Site
 title: JUST DO IT
-subtitle:
-description:
-keywords:
+subtitle: 52it.party
+description: 一个爱好it的开源站点
+keywords: java android ui ios
 author: Jerry Wang
-language: zh_CN
+language: zh-CN
 timezone:
+email: wypeng2012@163.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wypeng2012.github.io/
+url: https://52it.party/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -42,7 +43,7 @@ future: true
 # 添加这一行！hljs: true 修改高亮设置：
 highlight:
   enable: true
-  hljs: true  
+#  hljs: true  
   line_number: true
   auto_detect: false
   tab_replace:
@@ -92,7 +93,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aria
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
