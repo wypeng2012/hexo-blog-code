@@ -32,7 +32,7 @@ menu:
 #    url: /about
 
 # 你的头像url
-avatar: /img/avatar.png
+avatar: /img/avatar.jpg
 # avatar link
 avatar_link: /
 # 头像背景图
@@ -112,21 +112,21 @@ disqus_shortname: false
 # 是否开启友言评论, 填写友言用户id
 uyan_uid: false
 # 是否使用 gitment，https://github.com/imsun/gitment
-#gitment: true
-gitment:
-   owner: wypeng2012
-   repo: wypeng2012.github.io
-   client_id: 9a6253766978ee8c0432
-   client_secret: 395bec1fc13c08e4d240a58371b5a32e234ba7c9
+gitment: false
+#gitment:
+#   owner: wypeng2012
+#   repo: wypeng2012.github.io
+#   client_id: 9a6253766978ee8c0432
+ #  client_secret: 395bec1fc13c08e4d240a58371b5a32e234ba7c9
 
 # Valine Comment system. https://valine.js.org
 valine:
-  enable: false # 如果你想使用valine，请将值设置为 true
-  appId:  # your leancloud appId
-  appKey:  # your leancloud appKey
+  enable: true # 如果你想使用valine，请将值设置为 true
+  appId: OSeFve2phrScTi5DslUdmkR7-gzGzoHsz # your leancloud appId
+  appKey: YeAn5rF0OVsDSmiuY3D9pqaI # your leancloud appKey
   notify: false # Mail notify
   verify: false # Verify code
-  avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  avatar: wavatar # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   placeholder: Just go go # Comment Box placeholder
   guest_info: nick,mail,link # Comment header info
   pageSize: 10 # comment list page size
@@ -160,7 +160,7 @@ title_change:
 
 # 设置为 true 发布后将使用 unpkg cdn 最新的主题样式
 # 如果想让你的自定义样式生效，把此项设为 false
-cdn: true
+cdn: false
 
 # 设置为 true 将使用 lightbox render 图片
 lightbox: true
