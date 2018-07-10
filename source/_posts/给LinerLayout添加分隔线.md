@@ -16,7 +16,7 @@ categories: android界面开发
 ![设计图](/imgs/linearlayout.png)
 
 1. 在res/drawable/目录下创建一个shape的xml文件，里面代码如下：
-	```base
+	```java
 	
 	<?xml version="1.0" encoding="utf-8"?>
 	<shape xmlns:android="http://schemas.android.com/apk/res/android">
